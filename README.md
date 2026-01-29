@@ -70,4 +70,4 @@ This portfolio is deployed using **Vercel** and automatically updates on every p
 
 ---
 
-© 2025 Perugu Hari. All rights reserved.
+© 2026 Perugu Hari. All rights reserved.
