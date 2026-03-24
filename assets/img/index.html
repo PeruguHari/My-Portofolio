@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hari | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>Hi, I'm <span>Hari</span></h1>
+    <p>Frontend Developer | Interactive UI Creator</p>
+    <button onclick="scrollToSection('projects')">View Projects</button>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a Computer Science graduate passionate about building interactive,
+      responsive, and modern web applications using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card" onclick="openProject('Placement Prediction System','Machine Learning based prediction system')">
+      <h3>Placement Prediction</h3>
+      <p>Click to view demo</p>
+    </div>
+
+    <div class="project-card" onclick="openProject('Portfolio Website','Fully interactive personal portfolio')">
+      <h3>Portfolio Website</h3>
+      <p>Click to view demo</p>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject()">×</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <input type="text" placeholder="Try typing something..." />
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourmail@gmail.com</p>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
