@@ -1285,7 +1285,7 @@ img {
 /* Medium devices */
 @media screen and (min-width: 540px){
   .projects__card{
-    width: 420px;
+    width: 400px;
     flex-shrink: 0;
   }
 }
@@ -1293,7 +1293,7 @@ img {
 /* Large devices */
 @media screen and (min-width: 1150px){
   .projects__card{
-    width: 570px;
+    width: 450px;
     
   }
   .work__container{
